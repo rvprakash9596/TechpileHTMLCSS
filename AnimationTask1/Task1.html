@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Animation Task Day 1</title>
+<style>
+body
+{
+    background: url("../images/e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: bgimage;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+@keyframes bgimage
+{
+    0%{
+        background-image: url("../images/a.jpg");
+        background-size: 100% 100%;
+    }
+    25%{
+        background-image: url("../images/b.jpg");
+        background-size: 100% 100%;
+    }
+    50%{
+        background-image: url("../images/c.jpg");
+        background-size: 100% 100%;
+    }
+    75%{
+        background-image: url("../images/d.jpg");
+        background-size: 100% 100%;
+    }
+    100%{
+        background-image: url("../images/f.jpg");
+        background-size: 100% 100%;
+    }
+}
+
+.outer{
+    background: url("../images/k.jpg");
+    background-size: 100% 100%;
+    height: 500px;
+    width: 700px;
+    /* background-color: black; */
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 15px;
+}
+.inner{
+    height: 500px;
+    width: 700px;
+    background: rgba(0,0,0,.1);
+    box-sizing: border-box;
+    animation-name:shabd;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+}
+@keyframes shabd{
+    0%{
+        background: rgba(255,255,255,.5);
+    }
+    25%{
+        background: rgba(116, 0, 0, 0.5);
+    }
+    50%{
+        background: rgba(20, 168, 208, 0.5);
+    }
+    75%{
+        background: rgba(108, 21, 239, 0.5);
+    }
+    100%{
+        background: rgba(95, 0, 87, 0.5);
+    }
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 500px;
+    font-family:arial;
+    font-weight: 900;
+}
+h1:hover{
+    text-shadow: -120px -120px 1px red,124px -124px 1px aqua,126px 126px 1px green,-128px 128px 1px yellow;
+    transition: all 4s;
+}
+.outer:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px yellow,0px 0px 100px 30px red,0px 0px 150px 100px aqua ;
+}
+
+</style>
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <h1>Ravi Prakash</h1>
+    </div>
+</div>
+</body>
+</html>

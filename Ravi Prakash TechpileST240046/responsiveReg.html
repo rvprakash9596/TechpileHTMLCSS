@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+.main{
+    min-height: 700px;
+    width: 1520px;
+    background: #5132ef;
+}
+.left{
+    height: 670px;
+    width: 700px;
+    background-color: #5132ef;
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+}
+.txt{
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 250px;
+    /* background-color: blue; */
+    color: white;
+    padding: 20px;
+    border-left: 7px solid white;
+}
+
+.right{
+    height: 670px;
+    width: 700px;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+    margin-top: 15px;
+}
+.right h1{
+    text-align: center;
+}
+.control{
+    height: 77px;
+    width: 670px;
+    margin: 5px auto;
+    /* background-color: chocolate; */
+}
+.mb{
+    float: left;
+    height: 77px;
+    width: 335px;
+}
+.btn{
+    background-color: #5132ef;
+    height: 50%;
+    width: 670px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+font{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inp{
+    height: 30px;
+    width: 99%;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div class="main">
+
+    <div class="left">
+        <div class="txt">
+        <h1>Responsive</h1>
+        <h1>Registration</h1>
+        <h1>Form</h1>
+        </div>
+    </div>
+
+    <div class="right">
+        <h1>Registration Form</h1>
+        <div class="control">
+            <font>Full Name </font><br>
+            <input type="text" placeholder="Enter full name" class="inp">
+        </div>
+        <div class="control">
+            <font>Email Address </font><br>
+            <input type="email" placeholder="Enter email address" class="inp">
+        </div>
+        <div class="control">
+            <div class="mb">
+                <font>Mobile Number </font><br>
+                <input type="number" placeholder="Enter mobile number" class="inp">
+            </div>
+            <div class="mb">
+                <font>Birth Date </font><br>
+                <input type="date" class="inp">    
+            </div>
+        </div>
+        <div class="control">
+            <font>Gender </font> <br>
+            <input type="radio" name="gen" checked>Male
+            <input type="radio" name="gen">Female
+            <input type="radio" name="gen">Prefer Not To Say
+        </div>
+        <div class="control">
+            <font>Address</font><br>
+            <input type="text" placeholder="enter address" class="inp">
+        </div>
+        <div class="control">
+            <div class="mb">
+                <select class="inp">
+                    <option>Country</option>
+                </select>
+            </div>
+            <div class="mb">
+                <input type="number" placeholder="Enter Postal Code" class="inp">    
+            </div>     
+        </div>
+        <div class="control">
+            <input type="submit" value="Submit" class="btn">
+        </div>
+    </div>
+
+</div>    
+</body>
+</html> 
