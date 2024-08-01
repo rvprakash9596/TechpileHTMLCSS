@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+#outer{
+    height: 500px;
+    width: 1200px;
+    background: url("images/lone-tree.jpg");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    font-size: 120px;
+    line-height: 500px;
+    color: white;
+    text-align: center;
+}
+#left{
+    height: 500px;
+    width: 600px;
+    float: left;
+    /* background-color: red; */
+    background: rgba(255, 0, 0, .3);
+    text-shadow: 2px 2px 1px red,4px 4px 1px aqua;
+    transition: all 1s;
+}
+#right{
+    height: 500px;
+    width: 600px;
+    float: left;
+    /* background-color: green; */
+    background: rgba(123, 234,0,.5);
+}
+#left:hover{
+    background-color: rgba(64, 142, 216, .5);
+    transition: all 1s;
+    text-shadow: 100px -100px 1px red,100px 100px 1px aqua;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+    <div id="left">Techpile</div>
+    <div id="right">Technology</div>
+</div>
+
+</body>
+</html>

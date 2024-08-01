@@ -1,0 +1,539 @@
+<html>
+<head>
+<title>
+Basic Web Page Design
+</title>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:arial;
+}
+#outer{
+min-height: 590px;
+width:1300px;
+margin:0px auto;
+}
+.header{
+height:50px;
+width:1300px;
+display:flex;
+
+}
+.logo{
+height:50px;
+width:700px;
+padding-left:50px;
+background:white;
+}
+.h2{
+height:50px;
+width:200px;
+padding-top:10px;
+padding-left:10px;
+align-items:center;
+font-size:14px;
+}
+.contact h3{
+font-size:25px;
+color:grey;
+}
+.btnreg{
+background:#16a439;
+padding:10px;
+font-size:16px;
+color:white;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+#menu{
+height:45px;
+width:1300px;
+background:green;
+padding-left:250px;
+}
+#slider{
+ min-height:400px;
+ width:1300px;
+ background:url('slider.avif');
+ background-size:cover;
+ background-attachment:fixed;
+ display:flex;
+}
+#intro{
+min-height:200px;
+width:1300px;
+padding:20px 20px;
+text-align:justify;
+font-size:20px;
+}
+#services{
+min-height:200px;
+width:1300px;
+background:white;
+padding:0px 200px;
+display:flex;
+}
+.s
+{
+height:210px;
+width:300px;
+transform:translatey(-20px);
+padding-top:20px;
+padding-left:10px;
+text-align:justify;
+font-size:15px;
+padding-right:5px;
+background:white;
+margin:20px;
+color:rgba(0,0,0,.5);
+border-radius:5px;
+}
+.s i{
+transform:translatey(-5px);
+color:orange;
+font-size:30px;
+}
+.s:hover{
+background:rgba(0,0,0,.5);
+color:white;
+transform:scale(1.1);
+}
+.s h3:hover{
+color:orange;
+border-bottom:2px solid orange;
+}
+#contactus{
+height:500px;
+width:1300px;
+background:#f8f9fa;
+}
+.contact{
+height:400px;
+width:1100px;
+border-radius:10px;
+background:#ffffff;
+margin-left:100px;
+margin-top:50px;
+padding-top:10px;
+padding-left:30px;
+}
+h2{
+font-size:30px;
+text-align:center;
+}
+h2 b{
+color:orange;
+border-bottom:2px solid orange;
+padding-right:10px;
+}
+.contact input{
+height:35px;
+margin-bottom:5px;
+border-radius:5px;
+width:400px;
+padding-left:5px;
+}
+.contact textarea{
+margin-bottom:10px;
+border-radius:5px;
+height:50px;
+width:400px;
+padding-left:5px;
+}
+.contactright
+{
+  height:350px;
+  width:400px;
+  border-radius:5px;
+  background:#f8f9fa;
+  margin-left:640px;
+  margin-top:-350px;
+  padding-left:30px;
+  padding-top:10px;
+  }
+#gallery{
+height:490px;
+width:1300px;
+background:#e8e8ff;
+}
+.gtop{
+height:246px;
+width:1300px;
+
+display:flex;
+}
+.g1{
+height:246px;
+width:430px;
+}
+.g1 img{
+height:240px;
+width:210px;
+}
+#ufooter{
+height:300px;
+width:1300px;
+background:rgba(0,0,0,.7);
+display:flex;
+}
+.ufleft{
+height:300px;
+width:350px;
+padding-top:10px;
+padding-left:20px;
+}
+.ufleft img{
+margin-bottom:10px;
+}
+.ufright{
+height:300px;
+width:250px;
+padding-top:10px;
+padding-left:20px;
+}
+.ufright h3{
+color:white;
+padding-bottom:10px;
+
+}
+.ufright a{
+text-decoration:none;
+padding-top:5px;
+color:white;
+}
+.ufright i{
+color:white;
+}
+
+#bfooter{
+height:40px;
+width:1300px;
+background:rgba(0,0,0,.8);
+margin-top:1px;
+}
+#bfooter p{
+text-align:center;
+padding-top:10px;
+color:white;
+}
+#bfooter a{
+color:orange;
+text-decoration:none;
+}
+
+/* start menu */
+
+ #menu ul{
+ list-style:none;
+ display:flex;
+ }
+ #menu ul li{
+   height:40px;
+   width:150px;
+   color:white;
+   text-align:center;
+   line-height:40px;
+   transform:translatey(2px);
+   font-weight:bold;
+   font-size:17px;
+   border-radius:2px;
+ }
+ #menu ul li:hover{
+ color:black;
+ transition:all .5s;
+ background:#fa9700;
+ }
+
+/* End menu */
+
+.s1{
+height:400px;
+width:500px;
+padding:20px;
+background:rgba(0,0,0,.5);
+margin:25px 50px;
+border-radius:5px;
+}
+.s2{
+height:400px;
+width:700px;
+background:rgba(0,0,0,.5);
+padding-top:130px;
+text-align:right;
+padding-right:100px;
+margin-top:20px;
+font-size:40px;
+color:white;
+}
+.txt{
+height:50px;
+width:100%;
+margin-bottom:15px;
+border:none;
+padding-left:15px;
+border-radius:3px;
+}
+.txta{
+height:80px;
+width:100%;
+margin-bottom:15px;
+border:none;
+border-radius:3px;
+}
+.btn1{
+height:50px;
+width:100%;
+background:#fa9700;
+color:white;
+border-radius:3px;
+border:none;
+}
+/*.s2 h3{
+font-size:30px;
+margin-bottom:20px;
+}
+.text{
+text-align:justify;
+margin-top:20px;
+}*/
+
+
+</style>
+</head>
+
+<body>
+<div id="outer">
+  <div class="header">
+   <div class="logo">
+    <img src="images/w2.webp" style="height:50px; width:200px;"/> 
+   </div>
+   <div class="h2">
+    Call Us<br/><b>+91, 8881533406</b>
+   </div>
+   <div class="h2">
+    Mail Us<br/><b>Mukesh@gmail.com</b>
+   </div>
+   <div class="h2">
+    <a href="#" class="btnreg" style="margin-top:10px;">Register Now</a>
+   </div>
+  </div>
+  <div id="menu">
+    <ul>
+	  <li>Home</li>
+	   <li>About Us</li>
+	    <li>Services</li>
+		 <li>Contact Us</li>
+		  <li>Gallery</li>
+		   <li>Login</li>
+	</ul>
+  
+  </div>
+  <div id="slider">
+   <div class="s1">
+    <input type="text" placeholder="enter your name here" class="txt"/> <br/>
+	 <input type="number" placeholder="enter your phone no here" class="txt"/> <br/>
+	  <input type="text" placeholder="enter your Email" class="txt"/> <br/>
+	  <textarea placeholder="Enter your message" class="txta"></textarea><br/>
+	   <input type="submit" value="Save" class="btn1"/> <br/>
+   </div>
+   <div class="s2">
+   Welcome to <b style="color:#fa9700;">Web designing</b>
+  <div style="font-size:20px;text-align:justify;"> There are many variations of passages of Lorem Ipsum available, but the 
+ with a handful of  Lorem Ipsum is therefore 
+   always free from repetition, injected humour, or non-characteristic words etc</div><br/>
+   <a href="#" class="btnreg" >Register Now</a>
+  
+   </div>
+  </div>
+  <div id="services">
+   <div class="s">
+   <i class="ri-macbook-line"></i>
+    <h3>SummerTraining(45-60 Days)</h3>
+      Techpile offers you an appreciated training program with an objective to enhance the knowledge of the students on different cutting edge technologies for the B.Tech(CS/IT),BCA,MCA students.
+   </div>
+    <div class="s">
+	<i class="ri-code-s-slash-line"></i>
+	<h3>VocationalTraining(45-60 Days)</h3>
+	  Techpile offers an amazing Vocational Training program to make you expert in your field, which is a live project based training. Students related to the Diploma(CS/IT), PGDCA can join this program.
+	</div>
+	 <div class="s">
+	 <i class="ri-code-s-slash-line"></i>
+	 <h3>Summer Training(45 Days)</h3>
+	  This Summer Training program is designed to Teach, Guide and Enrich students to become ready for corporate. Students related to the B.Tech(CS/IT),PGDCA, Diploma(CS/IT), BCA, MCA can join this program. , Techpile provides Best Summer Training in lucknow
+	 </div>
+  </div>
+  
+  <div id="intro">
+    <div style="font-size:30px;text-align:center; margin-bottom:15px;">ABOUT <b style="color:#efbc01;">US</b></div>
+	 There are many variations of passages of Lorem Ipsum available, but the 
+ with a handful of  Lorem Ipsum is therefore 
+   always free from repetition, injected humour, or non-characteristic words etc.
+   	 There are many variations of passages of Lorem Ipsum available, but the 
+ with a handful of  Lorem Ipsum is therefore 
+   always free from repetition, injected humour, or non-characteristic words etc.
+  </div>
+
+  
+    <div id="contactus">
+     <h2><b>Contact</b> With Us</h2>
+    <div class="contact">
+	<h3>Send Your Message</h3>
+	<form>
+	<table>
+	<tr>
+	<td><div>
+	<label>Your Name:</label><br/>
+	<input type="text" placeholder="Enter Your name here" />
+	</div></td>
+	<div>
+	<label>Your Contact:</label><br/>
+	<input type="text" placeholder="Enter Your name here"/>
+	</div>
+	</tr>
+	<tr>
+	<div>
+	<td>
+	<label>Your Email:</label><br/>
+	<input type="text" placeholder="Enter Your Email here"/>
+	</td>
+	</div>
+	</tr>
+	<tr>
+	<div>
+	<td>
+	<label>Your Message:</label><br/>
+	<textarea placeholder="Enter Your Message here"></textarea>
+	
+	</td>
+	</div>
+	</tr>
+	<tr>
+	<td>
+	<input type="submit" value="SEND MESSAGE" style="width:150px;color:orange;border:1px solid orange;"/>
+	</td>
+	</tr>
+	</table>
+	</form>
+	 <div class="contactright">
+	   <h4>Contact Info</h4><br/>
+                    <div>
+                       <i class="ri-map-pin-2-fill"></i>
+                        <strong>Office Address</strong>
+                        <p>
+                            Plot No-43, Behind H.P Petrol Pump,<br />
+                            Tedhi Pulia Ring Rd, Sector 5,<br />
+                            Vikas Nagar, Lucknow <br />
+                            Uttar Pradesh 226022
+                        </p>
+                    </div><br/>
+					  <div>
+                        <i class="ri-phone-line"></i>
+                        <strong>Call Us</strong>
+                        <b>For CS/IT</b>
+                        <p class="d-flex">
+                            <a href="tel:+91 9140444301">+91 9140444301, </a>
+                            <a href="tel:+91 7007237006" class="ps-3">&nbsp;&nbsp;+91 7007237006, </a></p>
+                      
+                    
+                    </div><br/>
+                    <div>
+                    <i class="ri-mail-unread-fill"></i>
+                        <strong>Mail Us</strong>
+                        <p>
+                            <a href="mailto:techpilelko@gmail.com">techpilelko@gmail.com</a>
+                            <a href="mailto:hr@techpile.in">hr@techpile.in</a> 
+                        </p>
+                    </div>
+	 </div>
+	   
+	</div>
+  </div>
+  <div id="gallery">
+  <h3 style="text-align:center;padding-top:10px;padding-bottom:10px;">Image <b style="color:orange;border-bottom:2px solid orange;">Gallery</b></h3>
+  <div class="gtop">
+   <div class="g1"><img src="m1.jpg"/></div>
+    <div class="g1"><img src="dev.jpg"/></div>
+	 <div class="g1"><img src="com.jpg"/></div>
+	  <div class="g1"><img src="f1.png"/></div>
+	   <div class="g1"><img src="f2.png"/></div>
+	   <div class="g1"><img src="f3.png"/></div>
+   </div>
+<div class="gtop">
+      <div class="g1"><img src="bg.jfif"/></div>
+      <div class="g1"><img src="img3.jpg"/></div>
+	  <div class="g1"><img src="img4.jpg"/></div>
+	  <div class="g1"><img src="img5.jpg"/></div>
+	  <div class="g1"><img src="slider.avif"/></div>
+	  <div class="g1"><img src="m1.jpg"/></div>
+</div>
+  </div>
+  
+ 
+    <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14268.163120420117!2d82.9764838372889!3d26.615139577662067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1722018180090!5m2!1sen!2sin" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  <div id="ufooter">
+   <div class="ufleft">
+    <img src="f1.png"/>
+	<img src="f2.png"/>
+	<img src="f3.png"/>
+	<h4 style="color:white;margin-bottom:2px;">Stay Connected</h4>
+	<i class="ri-facebook-circle-fill"></i>
+	<i class="ri-twitter-fill"></i>
+	<i class="ri-instagram-fill"></i>
+	<i class="ri-whatsapp-fill"></i>
+	<i class="ri-youtube-fill"></i>
+   </div>
+   <div class="ufright">
+     <h3>Useful Links</h3>
+	                        <ul class="list" style="list-style-type:none;">
+                                <li><a href="https://techpile.in/"><i class="ri-arrow-right-s-line"></i>Home</a></li><br/>
+                                <li><a href="/about-us/"><i class="ri-arrow-right-s-line"></i></i>About Us</a></li><br/>
+                                <li><a href="#price"><i class="ri-arrow-right-s-line"></i>Pricing</a></li><br/>
+                                <li><a href="/our-placement/"><i class="ri-arrow-right-s-line"></i>Placement</a></li><br/>
+                                <li><a href="/contact-us"><i class="ri-arrow-right-s-line"></i>Contact Us</a></li><br/>
+                                <li><a href="/our-team/"><i class="ri-arrow-right-s-line"></i>Our Team</a></li><br/>
+                            </ul>
+   </div>
+   <div class="ufright">
+   
+                            <ul class="list" style="list-style-type:none;">
+                                <li><a href="https://www.techpile.in"><i class="ri-arrow-right-s-line"></i>Online Registartion</a></li><br/>
+                                <li><a href="/our-courses/"><i class="ri-arrow-right-s-line"></i>Our Courses</a></li><br/>
+                                <li><a href="/feedback/"><i class="ri-arrow-right-s-line"></i>Feedback</a></li><br/>
+                                <li><a href="#fact"><i class="ri-arrow-right-s-line"></i>Academics</a></li><br/>
+                                <li><a href="/privacy-policy/"><i class="ri-arrow-right-s-line"></i>Privacy and Policy</a></li><br/>
+                                <li><a href="/our-recruiters/"><i class="ri-arrow-right-s-line"></i>Our Recruiters</a></li><br/>
+                            </ul>
+   </div>
+   <div class="ufright">
+      <h3>Contact Address</h3>
+                            <ul class="list">
+                                <li style="list-style-type:none;">
+  <pre style="color:white;"><i class="ri-home-4-fill"></i>Plot No-43, Behind H.P Petrol Pump,<br />
+  Tedhi Pulia Ring Rd, Sector 5,<br />
+  Vikas Nagar, Lucknow,<br />
+  Uttar Pradesh 226022</pre>
+                                </li><br/><br/>
+                                <li style="list-style-type:none;"><i class="ri-phone-fill"></i><a href="tel:+91 7007237006"> +91-7007237006</a></li><br/>
+                                <li style="list-style-type:none;"><i class="ri-phone-fill"></i><a href="tel:+91 9140444301   "> +91-9140444301 </a></li><br/>
+                                <li style="list-style-type:none;"><i class="ri-mail-fill"></i><a href="mailto:techpilelko@gmail.com" target="_blank"> techpilelko@gmail.com</a></li><br/>
+
+                            </ul>
+   </div>       
+  </div>
+  
+  <div id="bfooter">
+   <p>Ⓒ 2024 <a href="https://techpile.in/" target="_blank">Techpile Technology</a> 2024 | Developed By <a href="#" target="_blank"> Techpile-Technical Cell</a></p>
+  </div>
+  
+</div>
+</body>
+</html>

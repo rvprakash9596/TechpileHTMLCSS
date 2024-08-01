@@ -1,0 +1,265 @@
+﻿C PROGRAMMING
+=============
+
+Full Website Development
+------------------------
+Frontend : HTML / CSS / Bootstrap
+Backend  : Java / Python / .NET / ....
+
+
+Programming Languages Types:
+============================
+1.Client Side (JS,JQUERY....)
+2.Server Side(Python,Java,PHP...)
+
+
+Programming Languages
+=====================
+Java + Hibernate/Spring Boot/JSP +JavaScript
+Python + Django +JavaScript
+.NET + MVC / ASP.NET /.NET CORE +JavaScript (C#)
+PHP+CODEIGNITER/LARAVEL/CMS/WORDPRESS +JavaScript
+MERN STACK +JavaScript
+MEAN STACK +JavaScript
+
+Database
+========
+MySQL
+MongoDB
+SyBase
+Oracle
+
+
+Mobile App Development :
+========================
+Android
+XamRain
+Ionic
+Flutter
+------------------------
+
+Program : Program is a collection of instructions.
+--------------------------------------------------
+
+function()
+{
+statements;
+statements;
+statements;
+.
+.
+.
+.
+}
+
+function(); => This is calling of function in Programming.
+
+================================================================================================================================================
+
+Programs : Programs are the collections of instructions that calculates or processed the raw input given by the user and generates a new processed output.
+
+C : C is a general purpose programming language that can evaluate the data and returns a output. C is the easiest to run and easy to understand as well as syntax of many other programming is inherited by C , so if you have working knowledge on C Programming will be easy to understand.
+
+C is the oldest and most popular programming language as C has been used to develop many number of console applications as well as operating system like Unix and Windows.
+
+
+
+Programs
+    |
+Functions
+    |
+Instructions
+    |
+  Tokens
+
+Strictly typed programming language : C,C++,Java, C#
+Loosly-typed programming language : JS , Python , PHP
+
+
+Tokens: Tokens are the smallest unit of the program that is used to phrase the instructions.
+-------
+1.Keywords
+2.Identifier
+3.Special Symbols
+4.Constant Values
+
+Keywords : Keywords are reserved words in programming language that has a special meanings and used to perform a pre-defined special task.
+---------
+
+In C there are 32+ Keywords .
+----------------------------
+
+	1. Data Types :
+	===============
+
+	   A. Primitive Data Type
+	      --------------------
+		1.Numeric Data Type:
+			a>Whole Numbers: short(2byte),int(2/4 byte),long(8byte)   [1 byte = 8bit]
+			b>Decimal Numbers: float(4byte),double(8byte)
+		2. Character Data Types : char [ single key can be store in char. ]
+		
+	   B. Non-Primitive Data Type: This is a collections of primitive data types.
+	      -----------------------
+			a>String
+			b>Array
+			c>Pointer
+
+	   C. User Defined Data Types:
+	      ------------------------
+			a>Structure (struct)
+			b>Union(union)
+			c>Enumeration(enum)
+	      
+		Empty Data Type: Void (It does not use to declare variables, it is only used in declarations & definition if UDF ).Void shows absence of 				 data.
+	
+		Control Statements: if,else,do,while,goto,switch,break,continue,default,case
+		------------------- 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Program(Raw Input ->Processing->Output)
+
+
+2. Identifiers: Identifiers are the user defined names in program .Ex: Name of a variables , name of a user defined function , 						datatype ,structure , enumeration.
+		There are some rules to define a identifiers.
+
+		a> Identifiers can't be a keywords.
+		b> Identifiers can't have blank space.
+		c> Identifiers can't be numericalpha.
+		d> Identifiers can't be starts with any special symbol except _ underscore.
+		e> Identifier can be alphanumeric.
+		f> Identifier always should be meaningful.
+
+Variables:
+==========
+Variable are the temporary memory location that can hold value for unlimited time.
+Variable is the temporary user-defined name for a memory location. And you can store a value that can be used further in program.
+
+Data_Type Variable_Name;
+
+1. Declaration of variables
+--------------------------- 
+	Syntax: data_type variable_name;
+	Example: int num;
+
+
+2. Initialization of variable
+-----------------------------
+	A. Direct Initialization /Compile time initialization: (=)
+	Syntax: variable_name = expression/value;
+	Example: num=2;
+
+	B. User Input / Run-Time Initialization :
+	Syntax: pre_defined input function
+	Example: printf() ,scanf() ,gets() ,puts() ,getchar() ,getch() ,getche()
+
+3. Special Symbol
+------------------
+;  =>Termination of statements
+"" =>Constant string value
+'' =>Constant Character
+&  =>Returns memory address of variables
+*  =>Pointers
+,  =>Seperates parameter of function
+
+
+Operators :
+==========
+
+Operators are special symbols that is used to perform operation on one or more operands and returns a output.
+There are following types of operators in c programming language......
+
+1) Arithmetic Operators [+,-,*,/,%]
+2) Assignment Operators [=,+=,-=,/=,*=,%=,]
+3) Relational Operators [<,>,<=,>=,!=,==] op=boolean
+4) Logical Operators	[&&(logical AND),||(logical OR),!(logical NOT)]
+5) Increment & Decrement Operators [++,--]
+6) Conditional Operators []
+7) Bitwise Operators
+
+
+Translator :
+===========
+Translator is a program that converts HLL (C,C++,JAVA,PHP,PYTHON...) into Machine Languange that is 0/1.
+They are two types--
+A. Compiler
+B. Interpreter
+
+Dev C++ => GUI
+Turbo C++ =>Unix Based
+
+
+Input / Output Function :
+-------------------------
+input function => used to collect data from the user at run time.
+----------------- Ex: scanf(),gets(),getch(),getchar(),getche()....
+
+output function => used to print the message on console window of relevent input .
+-----------------  Ex: printf(),puts(),putschar()
+
+
+
+Syntax of printf() : pre-defined function
+--------------------
+
+printf();
+
+Naming Conventions :
+--------------------
+
+printf(),scanf() =>
+
+
+Format Specifier : %c %d %f %lf %s %ld .....etc
+=================
+
+int 	%d
+long 	%ld
+char 	%c
+double 	%lf
+string 	%s
+float 	%f
+
+--------------------------------------------------------------------==============================================--------------------------------------------------------------------------
+
+Control Statements : Control Statements are the lines of program that decides the next given statement will be executed or not ?.
+===================
+
+	1.Conditional Statement
+	2.Looping Statement / Iteration Statement
+	3.Branching / Transfer Statement
+
+
+1. Conditional Statements :
+---------------------------
+	A. If Statement :
+		.simple if statement
+		.if else statement
+		.Ladder if statement
+		.Nested if statement
+
+	B. Switch Statement :
+
+2. Looping Statements / Iteration Statements:
+---------------------------------------------
+	A. Entry Control Loop
+		.for loop
+		.while loop
+	B. Exit Control Loop
+		.do-while loop
+		
+
+3.Branching / Transfer Statement :
+----------------------------------
+	A. break Statement
+	B. continue statement
+	C. goto Statement
+
+
+
+
+
+
+
+
+
